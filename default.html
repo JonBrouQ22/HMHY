@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Help Me Help You - Home</title>
+<meta content="help, volunteer, volunteering, helping, charity, NGO, charities, philanthopy" name="keywords" />
+<meta content="Helping people find how they can help others on THEIR time." name="description" />
+<link href="final_style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+</style>
+<script type="text/javascript">
+<!--
+function FP_setStatusBarText(txt) {//v1.0
+ window.status=txt;
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+
+function FP_swapImgRestore() {//v1.0
+ var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
+  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
+  doc.$imgSwaps=null; }
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'assets/volunteer_opportunities.jpg'); FP_setStatusBarText('Welcome to Help Me Help You!')">
+<div id="container">
+<div id="navbar">
+	<ul id="navLinks">
+	<li class="navLink"><a href="default.html">Home</a></li> 
+	<li class="navLink"><a href="events.html">Events</a></li>
+	<li class="navLink"><a href="organizations.html">Organizations</a></li>
+	<li class="navLink"><a href="people.html">People</a></li>
+	<li class="navLink"><a href="about_us.html">About Us</a></li>
+	<li class="navLink"><a href="join.html">Join</a></li>
+	<li class="navLink"><a href="link_references.html">Link Reference</a></li>
+	</ul>
+	</div>
+<div id="banner">
+	<div id="logo">
+		<a name="image_swap">
+		<img alt="Help Me Help You Logo" height="311" src="assets/hmhy_logo.jpg" width="360" id="img1" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img1',/*url*/'assets/volunteer_opportunities.jpg')" /></a></div>
+	</div>
+<div id="sidebar">
+	Featured<br />
+	<div class="sidebarItem">
+		<a name="picture">
+	<img alt="Generic Organization - two volunteers" src="assets/volunteers_with_wings.jpg" width="95%" /></a><br />
+	<p style="font-size: 12px;">This generi<a name="paragraph_linebreak"></a>c organization is doing good and featured here!</p>
+	</div>
+	<div class="sidebarItem">
+		<a name="resized_picture">
+		<img alt="man pushing woman in wheelchair" height="89" src="assets/wheelchair_help%20smaller.jpg" width="157" /></a><p style="font-size:12px;">These guys are AWESOME!<br />
+		And we want YOU to know!</p>
+	</div>
+</div>
+<div class="content">
+	<h1 style="text-align:center;font-size:52px;">What's happening now?<a name="text_example"></a></h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d110245.90010278452!2d-97.74410521591798!3d30.288812279370415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1449502250733" width="600" height="450" frameborder="0" style="border:0" allowfullscreen id="map"></iframe>
+	<div class="eventSection">
+		<h3>Park Clean-up</h3>
+		<p>@Hudson Park | 12:00 - 5:00 PM</p>
+		<p class="ongoing">Going on now!</p>
+	</div>
+	<div class="eventSection">
+		<h3>Present wrapping for charity</h3>
+		<p>@Community Center | 3:00 - 7:00 PM</p>
+		<p class="ongoing">Going on now!</p>
+	</div>
+</div>
+</div>
+<div class="footer" id="homeFooter">
+	<ul>
+		<li><a href="default.html">Home</a></li> 
+		<li><a href="events.html" name="internal_link">Events</a></li>
+		<li><a href="organizations.html">Organizations</a></li>
+		<li><a href="people.html">People</a></li>
+		<li><a href="about_us.html">About Us</a></li>
+		<li><a href="join.html">Join</a></li>
+		<li><a href="link_references.html">Link Reference</a></li>
+	</ul>
+	<p>&copy; 2015 Help Me Help You | <a href="mailto:jonathan.brou@g.austincc.edu">Jonathan.Brou@g.austincc.edu</a></p>
+</div>
+</body>
+
+</html>
